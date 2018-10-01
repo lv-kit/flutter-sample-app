@@ -68,7 +68,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Text(
         _item.toString(),
-        style: TextStyle(fontSize: 32.0),
+        style: TextStyle(fontSize: 32.0,
+          color: Colors.blueAccent,
+          fontFamily: "Roboto",
+          fontWeight: FontWeight.w700
+        ),
       ),
       floatingActionButton: FloatingActionButton(
           onPressed: _setData,
